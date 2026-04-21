@@ -25,7 +25,7 @@ const Footer = () => {
           <div className="mt-6 flex flex-col gap-3 sm:flex-row lg:mt-0">
             <Link
               to="/search"
-              className="inline-flex items-center justify-center rounded-full bg-[linear-gradient(135deg,#0f766e,#155e75)] px-6 py-3 text-sm font-semibold text-white"
+              className="inline-flex items-center justify-center rounded-full bg-[linear-gradient(135deg,#0f766e,#155e75)] px-6 py-3 text-sm font-semibold !text-white"
             >
               Explore trips
             </Link>

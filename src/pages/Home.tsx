@@ -375,7 +375,7 @@ const Home = () => {
             Search hotels, rentals, tours, or package deals with filters that stay visible and easy to use.
           </p>
           <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
-            <Link to="/search" className="rounded-full bg-[linear-gradient(135deg,#0f766e,#155e75)] px-6 py-3 text-sm font-semibold text-white">
+            <Link to="/search" className="rounded-full bg-[linear-gradient(135deg,#0f766e,#155e75)] px-6 py-3 text-sm font-semibold !text-white">
               Start planning
             </Link>
             <Link to="/contact" className="rounded-full border border-[var(--border-soft)] px-6 py-3 text-sm font-semibold text-[var(--text-strong)]">
